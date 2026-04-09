@@ -38,7 +38,6 @@ npx prisma generate
 # Execute o projeto
 npm start
 
-
 src/
 ├── index.ts                    # Ponto de entrada
 └── repositories/
