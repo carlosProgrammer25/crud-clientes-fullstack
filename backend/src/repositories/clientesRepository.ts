@@ -84,6 +84,7 @@ export async function UpdateCliente(id: number, novoDado: atualizar) {
             data: novoDado
         });
     } catch (error) {
+        //se nao atualizar  update retorna erro
         throw error;
     };
 };
