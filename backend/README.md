@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # API de Clientes
 
 API REST para gerenciamento de clientes usando Node.js, Express e Prisma com MariaDB.
@@ -60,4 +59,3 @@ src/
 ├── index.ts                    # Ponto de entrada
 └── repositories/
     └── clientesRepository.ts   # CRUD do cliente
->>>>>>> 15b10f516b19849c6f22b6401f12ff9e9e040657
