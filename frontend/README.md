@@ -31,6 +31,7 @@ frontend/
 ├── index.html
 ├── package.json
 └── vite.config.js
+
 ⚙️ Como executar
 # Clone o repositório
 git clone https://github.com/carlosProgrammer25/crud-clientes-fullstack.git
@@ -43,6 +44,7 @@ npm install
 
 # Execute o projeto
 npm run dev
+
 🔗 Integração com API
 
 O projeto consome uma API backend.
