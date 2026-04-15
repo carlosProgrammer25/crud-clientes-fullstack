@@ -1,9 +1,8 @@
 🎨 Frontend - CRUD de Clientes
-
 Interface web para gerenciamento de clientes, desenvolvida com React + Vite, consumindo uma API REST.
 
-📌 Sobre o projeto
 
+📌 Sobre o projeto
 Este frontend permite:
 
 Listar todos os clientes
@@ -19,6 +18,7 @@ React
 Vite
 JavaScript (ES6+)
 CSS
+
 📁 Estrutura
 frontend/
 ├── src/
