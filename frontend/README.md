@@ -1,16 +1,58 @@
-# React + Vite
+🎨 Frontend - CRUD de Clientes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interface web para gerenciamento de clientes, desenvolvida com React + Vite, consumindo uma API REST.
 
-Currently, two official plugins are available:
+📌 Sobre o projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Este frontend permite:
 
-## React Compiler
+Listar todos os clientes
+Buscar cliente por ID
+Criar novos clientes
+Editar clientes existentes
+Deletar clientes
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Tudo integrado com o backend via requisições HTTP (fetch).
 
-## Expanding the ESLint configuration
+🛠️ Tecnologias
+React
+Vite
+JavaScript (ES6+)
+CSS
+📁 Estrutura
+frontend/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   │   └── Clientes.jsx
+│   ├── App.jsx
+│   └── main.jsx
+├── public/
+├── index.html
+├── package.json
+└── vite.config.js
+⚙️ Como executar
+# Clone o repositório
+git clone https://github.com/carlosProgrammer25/crud-clientes-fullstack.git
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Acesse o frontend
+cd frontend
+
+# Instale as dependências
+npm install
+
+# Execute o projeto
+npm run dev
+🔗 Integração com API
+
+O projeto consome uma API backend.
+
+Configure a URL no arquivo .env:
+
+VITE_API_URL=http://localhost:3000/
+📋 Funcionalidades
+🔍 Buscar cliente por ID
+➕ Criar cliente
+✏️ Editar cliente
+🗑️ Deletar cliente
+📄 Listar todos os clientes
