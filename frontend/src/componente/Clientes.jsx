@@ -199,19 +199,19 @@ function Clientes() {
                 </form>
 
                 {clientePesquisado.map((c) => (
-                    <div key={c.ID} className="cliente-encontrado-center">
+                    <div key={c.data.ID} className="cliente-encontrado-center">
                         <div className="card-header">
-                            <h3 className="nome-registro">{c.Nome}</h3>
+                            <h3 className="nome-registro">{c.data.Nome}</h3>
                         </div>
 
                         <div className="card-details">
                             <p className="detail-item">
                                 <span className="detail-label">📅 Idade:</span>
-                                <span className="detail-value">{c.Idade} anos</span>
+                                <span className="detail-value">{c.data.Idade} anos</span>
                             </p>
                             <p className="detail-item">
                                 <span className="detail-label">📍 UF:</span>
-                                <span className="detail-value">{c.UF}</span>
+                                <span className="detail-value">{c.data.UF}</span>
                             </p>
                         </div>
 
