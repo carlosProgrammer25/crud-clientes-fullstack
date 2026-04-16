@@ -216,8 +216,8 @@ function Clientes() {
                         </div>
 
                         <div className="card-actions">
-                            <button onClick={() => iniciarEdicao(c)} className="btn-editar">✏️ Editar</button>
-                            <button onClick={() => deletar(c)} className="btn-deletar">🗑️ Deletar</button>
+                            <button onClick={() => iniciarEdicao(c.data)} className="btn-editar">✏️ Editar</button>
+                            <button onClick={() => deletar(c.data)} className="btn-deletar">🗑️ Deletar</button>
                         </div>
                     </div>
                 ))}
